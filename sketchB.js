@@ -38,15 +38,6 @@ textSize(28);
 
 }
 
-function mousePressed() {
-    noStroke();
-    fill(10,0,116);
-
-     ellipse(random(width-200), random(height-200), 80, 80);
-     ellipse(random(width-200), random(height-200), 80, 80);
-     ellipse(random(width-200), random(height-200), 80, 80);
-  
-}
 
 class Hole {
     constructor() {

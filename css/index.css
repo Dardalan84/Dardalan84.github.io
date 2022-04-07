@@ -10,7 +10,7 @@ body {
   background-color: rgb(10, 0, 116);
   color: white;
   overflow-y: hidden;
-  
+  overflow-x: hidden;
 }
 
 #intro {

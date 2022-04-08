@@ -1,21 +1,31 @@
 h1 {
-  border: solid black; 
+ 
   font-size: 64;
   text-align: center;
   margin:auto;
   padding:0px;
 }
 
+h2 {
+  font-weight: 600;
+  font-family: sans-serif;
+  font-style: italic
+}
+
+a{
+  font-size: 20;
+  color:aliceblue;
+}
+
 body {
-  background-color: rgb(10, 0, 116);
+  background: linear-gradient(180deg, rgb(10, 0, 146), rgb(18, 17, 34)) no-repeat fixed;
   color: white;
-  overflow-y: hidden;
-  overflow-x: hidden;
+ 
+  
 }
 
 #intro {
-  padding: 50px;
-  text-align: center;
+ 
   text-align:top;
 }
 
@@ -28,10 +38,15 @@ body {
 #profilepic {
   margin: 20;
   border: solid darkgreen;
+  
 }
 
 #header {
- background-color: rgb(10, 0, 60);
+ /* background-image: url('./data/space.png'); */
+ text-align: right;
+ padding-left:100px;
+ padding-right:100px;
+ padding-top:20px;
  color: aliceblue;
 }
 
@@ -41,5 +56,10 @@ body {
   
 }
 
+#sketch {
 
+  
+  margin:40px;
+  
+}
 

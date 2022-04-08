@@ -20,6 +20,7 @@ a{
 body {
   background: linear-gradient(180deg, rgb(10, 0, 146), rgb(18, 17, 34)) no-repeat fixed;
   color: white;
+  border: solid white;
  
   
 }
@@ -44,10 +45,11 @@ body {
 #header {
  /* background-image: url('./data/space.png'); */
  text-align: right;
- padding-left:100px;
+ padding-left:150px;
  padding-right:100px;
- padding-top:20px;
+ padding-bottom: 20px;
  color: aliceblue;
+ border-bottom: dotted white;
 }
 
 #menu {
@@ -57,9 +59,9 @@ body {
 }
 
 #sketch {
-
+  border: dotted white;
   
-  margin:40px;
+  margin:30px;
   
 }
 

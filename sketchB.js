@@ -1,4 +1,5 @@
-
+let o = 300;
+let p = 300;
 
 function setup() {
     let canvas = createCanvas(600, 600);
@@ -8,10 +9,9 @@ function setup() {
     background(240,0);
     
 fill(255);
-    let a = createA('https://cypherforest.github.io/puzzlearcade/fader.html', 'Fader');
-    let b = createA('http://p5js.org/', 'powered by p5.js');
-
-    let c = createA('http://p5js.org/', 'powered by p5.js');
+    let a = createA('https://cypherforest.github.io/puzzlearcade/fader.html', 'Somewhere in the Stars');
+    let b = createA('https://cypherforest.github.io/puzzlearcade/phone.html', 'Business Telecom Hack');
+    let c = createA('https://cypherforest.github.io/puzzlearcade/rainingletters.html', 'Letter Catcher');
 
 let x=180;
 let y=400;
@@ -31,11 +31,26 @@ strokeWeight(180);
 stroke(10,0,86,12);
 
 ellipse(width/2,height/2,700,700);
+// strokeWeight(60);
+// stroke(10,0,116,10);
+
+// point(o,p);
+
+// let randNum = floor(random(4));
+//    if(randNum == 0){
+//        o=o+3;
+//    } else if(randNum == 1){
+//     o=o-3;
+// } else if(randNum == 2){
+//     p=p+3;
+// } else if(randNum == 3){
+//     p=p-3;
+// };
 
 
 textSize(40);
 noFill();
-strokeWeight(4);
+strokeWeight(3);
 stroke(255);
 rect(150,36,300,40);
 strokeWeight(0);
@@ -43,6 +58,7 @@ fill(255);
     text("Recent Projects", 160, 70);
     textSize(28);
     text("Puzzle Arcade", 100,160);
+
 }
 
 function mousePressed() {

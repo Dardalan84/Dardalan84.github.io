@@ -1,0 +1,65 @@
+h1 {
+ 
+  font-size: 64;
+  text-align: center;
+  margin:auto;
+  padding:0px;
+}
+
+h2 {
+  font-weight: 600;
+  font-family: sans-serif;
+  font-style: italic
+}
+
+a{
+  font-size: 20;
+  color:aliceblue;
+}
+
+body {
+  background: linear-gradient(180deg, rgb(10, 0, 146), rgb(18, 17, 34)) no-repeat fixed;
+  color: white;
+ 
+  
+}
+
+#intro {
+ 
+  text-align:top;
+}
+
+#PacMan {
+  text-align:center;
+  margin-top:-16px;
+}
+
+
+#profilepic {
+  margin: 20;
+  border: solid darkgreen;
+  
+}
+
+#header {
+ /* background-image: url('./data/space.png'); */
+ text-align: right;
+ padding-left:100px;
+ padding-right:100px;
+ padding-top:20px;
+ color: aliceblue;
+}
+
+#menu {
+  text-align: right;
+  padding-right: 20px;
+  
+}
+
+#sketch {
+
+  
+  margin:40px;
+  
+}
+

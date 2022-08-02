@@ -1,3 +1,7 @@
+body{
+  background-color: rgb(9, 9, 131);
+}
+
 h1 {
  
   font-size: 64;
@@ -6,33 +10,38 @@ h1 {
   padding:0px;
 }
 
-h2 {
-  font-weight: 600;
-  font-family: sans-serif;
-  font-style: italic
-}
 
-a{
-  font-size: 20;
-  color:aliceblue;
-}
-
-body {
-  background: linear-gradient(180deg, rgb(10, 0, 146), rgb(18, 17, 34)) no-repeat fixed;
+a {
   color: white;
-  border: solid white;
- 
-  
+  text-decoration: none;
 }
 
-#intro {
- 
-  text-align:top;
+a:hover {
+  text-decoration:underline;
+  color:rgb(247, 255, 92);
+  font-size:x-large;
+}
+a:visited {
+  color:white;
+}
+
+
+.weatherframe {
+  display: flex;
+  justify-content: center;
+  position:inline;
+  align-items:center;
+height:700px;
+margin: 20px;
 }
 
 #PacMan {
+  position:absolute;
+  padding-top: 100px;
   text-align:center;
-  margin-top:-16px;
+ bottom:-200px;
+  
+
 }
 
 
@@ -44,12 +53,17 @@ body {
 
 #header {
  /* background-image: url('./data/space.png'); */
+
  text-align: right;
  padding-left:150px;
  padding-right:100px;
- padding-bottom: 20px;
- color: aliceblue;
- border-bottom: dotted white;
+ padding-bottom: 10px;
+ padding-top: 5px;
+ font-family: 'Patua One', cursive;
+ font-weight: 400;
+ font-size:20;
+ color: rgb(228, 3, 25);
+ border-bottom:4px  dotted rgb(10, 0, 116);
 }
 
 #menu {
@@ -58,10 +72,21 @@ body {
   
 }
 
+
 #sketch {
-  border: dotted white;
-  
-  margin:30px;
-  
+  margin:20px;
+  position:absolute;
 }
+
+.col-sm{
+  text-align: center;
+}
+
+.processingcontainer{
+  display: flex;
+  justify-content: center;
+  position:inline;
+}
+
+
 

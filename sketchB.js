@@ -9,15 +9,7 @@ function setup() {
     background(240,0);
     
 fill(255);
-    let a = createA('https://cypherforest.github.io/puzzlearcade/fader.html', 'Somewhere in the Stars');
-    let b = createA('https://cypherforest.github.io/puzzlearcade/phone.html', 'Business Telecom Hack');
-    let c = createA('https://cypherforest.github.io/puzzlearcade/rainingletters.html', 'Letter Catcher');
-
-let x=180;
-let y=400;
-a.position(x,y);
-b.position(x,y+40);
-c.position(x,y-40);
+   
 }
 
 function draw(){

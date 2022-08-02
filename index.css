@@ -32,7 +32,8 @@ a:visited {
   position:inline;
   align-items:center;
 height:700px;
-margin: 20px;
+width:90%;
+  margin:auto;
 }
 
 #PacMan {

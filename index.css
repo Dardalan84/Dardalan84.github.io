@@ -61,8 +61,8 @@ margin: 20px;
  padding-top: 50px;
  font-family: 'Patua One', cursive;
  
-
- height: 300px;
+ font-size:24px;
+ height: 200px;
  color: rgb(245, 60, 60);
  border-bottom:4px  dotted rgb(10, 0, 116);
 }

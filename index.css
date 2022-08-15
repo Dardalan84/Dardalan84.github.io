@@ -75,6 +75,10 @@ justify-content:center;
  color: rgb(235, 88, 88);
 }
 
+.name {
+padding-right:50px;
+}
+
 .menu {
   position:absolute;
   

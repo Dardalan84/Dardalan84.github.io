@@ -3,16 +3,12 @@ body {
   margin:0px;
  }
 
-
-
 h1 {
   font-size: 64;
   text-align: center;
   margin:auto;
   padding:0px;
 }
-
-
 
 .project-title a {
   color: rgb(198, 231, 233);
@@ -27,7 +23,6 @@ h1 {
 a {
   text-decoration:none;
 }
-
 
 .weatherframe {
   display: flex;

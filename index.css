@@ -1,14 +1,11 @@
-body{
+body {
   background-color: rgb(30, 74, 139);
- margin:0px;
- 
-
-}
+  margin:0px;
+ }
 
 
 
 h1 {
- 
   font-size: 64;
   text-align: center;
   margin:auto;
@@ -25,11 +22,10 @@ h1 {
 .project-title a:hover {
   text-decoration:none;
   color:rgb(198, 231, 233);
-
 }
+
 a {
-  
-text-decoration:none;
+  text-decoration:none;
 }
 
 
@@ -38,28 +34,25 @@ text-decoration:none;
   justify-content: center;
   position:inline;
   align-items:center;
-height:700px;
-margin: 20px;
+  height:700px;
+  margin: 20px;
 }
 
 #PacMan {
   position:absolute;
   padding-top: 100px;
   text-align:center;
- bottom:-200px;
-  
-
+  bottom:-200px;
 }
 
 
 #profilepic {
   margin: 20;
   border: solid darkgreen;
-  
 }
 
 #header {
-justify-content:center;
+ justify-content:center;
  text-align: right;
  letter-spacing:1px;
  font-weight:bold;
@@ -70,37 +63,32 @@ justify-content:center;
  line-height:40px;
  font-size:24px;
  font-family: 'Arima', cursive;
- 
  height: 200px;
  color: rgb(235, 88, 88);
 }
 
 .name {
-padding-right:50px;
+  padding-right:50px;
 }
 
 .menu {
   position:absolute;
-  
   display:flex;
   justify-content:right;
   color: rgb(245, 60, 60);
- background-color:rgb(15, 49, 100);
+  background-color:rgb(15, 49, 100);
   padding:10px;
   padding-right:40px;
- width:100%;
-margin:0px;
-  
+  width:100%;
+  margin:0px;
 }
 
 .menu-item {
-
-  
   display:inline;
   font-size:18px;
   color: rgb(245, 103, 60);
   padding:5px;
- height:100%;
+  height:100%;
 }
 
 .menu-item a {
@@ -109,26 +97,18 @@ margin:0px;
   color: rgb(245, 103, 60);
   padding:5px;
   padding-right:20px;
- 
-  
 }
 
 .menu-item:hover {
   background-color:rgb(198, 231, 233);
   color: rgb(15, 50, 104);
-  
-  /* animation: slide 0.8s none; */
   padding:5px;
   font-size:18px;
-
 }
 
 .menu-item a:hover {
   background-color:rgb(198, 231, 233);
   color: rgb(15, 50, 104);
- 
-  /* animation: slide 0.8s none; */
-
 }
 
 
@@ -141,16 +121,14 @@ margin:0px;
 
 .contact-info {
   display:flex;
-height: 400px;
-color:rgb(245, 60, 60);
-
+  height: 400px;
+  color:rgb(245, 60, 60);
   justify-content:center;
   align-items:center;
- 
 }
 
 .contact-info a {
-color: rgb(198, 231, 233);
+  color: rgb(198, 231, 233);
 }
 
 .puzzledrop {
@@ -159,7 +137,7 @@ color: rgb(198, 231, 233);
   background-color: rgb(198, 231, 233);
   min-width: 178px;
   box-shadow: 0px 16px 16px 0px rgba(245, 103, 60,0.6);
- margin-top:5px;
+  margin-top:5px;
   z-index: 1;
 }
 
@@ -169,11 +147,12 @@ color: rgb(198, 231, 233);
   text-decoration: none;
   display: block;
   text-align: center;
- 
   font-size:14px;
 }
 
-.puzzledrop a:hover {animation: slide 1s none}
+.puzzledrop a:hover {
+  animation: slide 1s none
+}
 
 .menu-item:hover .puzzledrop {
   display: block;
@@ -181,7 +160,6 @@ color: rgb(198, 231, 233);
 
 
 #sketch {
-  
   position:inline;
 }
 
@@ -194,18 +172,15 @@ color: rgb(198, 231, 233);
   justify-content: center;
   position:absolute;
   align-items:center;
-height:700px;
-
+  height:700px;
 }
 
 .project-title {
   color: rgb(243, 165, 76);
-margin:50px;
-margin-top:60px;
-position:inline;
-font-family: 'Arima', cursive;
-
-  
+  margin:50px;
+  margin-top:60px;
+  position:inline;
+  font-family: 'Arima', cursive;  
 }
 
 .timo-container {
@@ -220,20 +195,16 @@ font-family: 'Arima', cursive;
   position:absolute;
   width:600px;
   height:600px;
-  
 }
 
 .box {
- 
   display:flex;
   align-items: center;
   justify-content: center;
-
   margin-top:60px;
   top:-10px;
- transform: rotate(0deg);
- animation:none;
- 
+  transform: rotate(0deg);
+  animation:none;
 }
 
 .box:focus {
@@ -247,11 +218,10 @@ font-family: 'Arima', cursive;
 @keyframes swing {
   33% {transform:  rotate(-45deg); top: 800px;}
   66% {transform:  rotate(45deg); top: 800px;}
-
 }
+
 .face {
- position:absolute;
- 
+  position:absolute;
   display:flex;
   align-items: center;
   justify-content: center;
@@ -260,13 +230,12 @@ font-family: 'Arima', cursive;
   width: 360px;
   height: 300px;
   top:0px;
- z-index: 0;
- overflow:hidden;
+  z-index: 0;
+  overflow:hidden;
 }
 
 .chin {
- 
-position:absolute;
+  position:absolute;
   border-radius: 15% 65% 0% 65%;
   justify-content: center;
   background-color: rgb(255, 255, 255);
@@ -330,8 +299,7 @@ position:absolute;
 
 @keyframes moveeyeL {
   0%   {transform:scale(1) rotate(90deg);}
-  50%  {transform:scale(0.5) rotate(90deg); background-color:rgb(255, 146, 240);}
-  
+  50%  {transform:scale(0.5) rotate(90deg); background-color:rgb(255, 146, 240);
   100% {transform:scale(1) rotate(90deg);}
 }
 
@@ -345,8 +313,6 @@ position:absolute;
   height:47px;
   width:47px;
   transform: rotate(90deg);
-
-
 }
 
 .pupilR:hover {
@@ -356,7 +322,6 @@ position:absolute;
 @keyframes moveeyeR {
   0%   {transform:scale(1) rotate(90deg);}
   50%  {transform:scale(0.5) rotate(90deg); background-color:rgb(146, 230, 255);}
-  
   100% {transform:scale(1) rotate(90deg);}
 }
 
@@ -434,7 +399,7 @@ position:absolute;
 }
 
 .earR {
- position:absolute;
+  position:absolute;
   height: 240px;
   width: 180px;
   top:-30px;
@@ -444,7 +409,7 @@ position:absolute;
 }
 
 .innerearR {
-  position:absolute;
+   position:absolute;
    height: 150px;
    width: 100px;
    right:15px;
@@ -467,11 +432,11 @@ position:absolute;
 }
 
 .innerearL {
-  position:absolute;
-  height: 150px;
-  width: 100px;
-  right:15px;
-  top:80px;
+   position:absolute;
+   height: 150px;
+   width: 100px;
+   right:15px;
+   top:80px;
    border-radius: 10% 70% 10% 70%;
    background-color: rgb(74, 55, 11);
    z-index: -200;
@@ -485,9 +450,9 @@ position:absolute;
    background: rgb(252, 182, 89);
    border-radius: 5%;
    top: -50px;
-  left:-150px;
-
+   left:-150px;
 }
+  
 .rect2{
   position:absolute;
   width: 400px;
@@ -495,27 +460,23 @@ position:absolute;
   background: rgb(252, 89, 89);
   border-radius: 5%;
   top:-100px;
- right:-150px;
- animation:none;
-
+  right:-150px;
+  animation:none;
 }
 
 .box2 {
   position: relative;
   height:400;
   width:400;
-animation: none;
+  animation: none;
 }
-
 
 .box:hover .rect2 {
   animation: moveL 10s none ;  
-  
 }
 
 .box:hover .rect1 {
   animation: moveR 10s none ;  
-  
 }
 
 @keyframes moveR {

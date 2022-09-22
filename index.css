@@ -190,16 +190,20 @@ a {
   position:absolute;
   width:600px;
   height:600px;
+  
 }
 
 .box {
+ 
   display:flex;
   align-items: center;
   justify-content: center;
+
   margin-top:60px;
   top:-10px;
-  transform: rotate(0deg);
-  animation:none;
+ transform: rotate(0deg);
+ animation:none;
+ 
 }
 
 .box:focus {
@@ -213,10 +217,11 @@ a {
 @keyframes swing {
   33% {transform:  rotate(-45deg); top: 800px;}
   66% {transform:  rotate(45deg); top: 800px;}
-}
 
+}
 .face {
-  position:absolute;
+ position:absolute;
+ 
   display:flex;
   align-items: center;
   justify-content: center;
@@ -225,12 +230,13 @@ a {
   width: 360px;
   height: 300px;
   top:0px;
-  z-index: 0;
-  overflow:hidden;
+ z-index: 0;
+ overflow:hidden;
 }
 
 .chin {
-  position:absolute;
+ 
+position:absolute;
   border-radius: 15% 65% 0% 65%;
   justify-content: center;
   background-color: rgb(255, 255, 255);
@@ -294,7 +300,8 @@ a {
 
 @keyframes moveeyeL {
   0%   {transform:scale(1) rotate(90deg);}
-  50%  {transform:scale(0.5) rotate(90deg); background-color:rgb(255, 146, 240);
+  50%  {transform:scale(0.5) rotate(90deg); background-color:rgb(255, 146, 240);}
+  
   100% {transform:scale(1) rotate(90deg);}
 }
 
@@ -308,6 +315,8 @@ a {
   height:47px;
   width:47px;
   transform: rotate(90deg);
+
+
 }
 
 .pupilR:hover {
@@ -317,6 +326,7 @@ a {
 @keyframes moveeyeR {
   0%   {transform:scale(1) rotate(90deg);}
   50%  {transform:scale(0.5) rotate(90deg); background-color:rgb(146, 230, 255);}
+  
   100% {transform:scale(1) rotate(90deg);}
 }
 
@@ -394,7 +404,7 @@ a {
 }
 
 .earR {
-  position:absolute;
+ position:absolute;
   height: 240px;
   width: 180px;
   top:-30px;
@@ -404,7 +414,7 @@ a {
 }
 
 .innerearR {
-   position:absolute;
+  position:absolute;
    height: 150px;
    width: 100px;
    right:15px;
@@ -427,11 +437,11 @@ a {
 }
 
 .innerearL {
-   position:absolute;
-   height: 150px;
-   width: 100px;
-   right:15px;
-   top:80px;
+  position:absolute;
+  height: 150px;
+  width: 100px;
+  right:15px;
+  top:80px;
    border-radius: 10% 70% 10% 70%;
    background-color: rgb(74, 55, 11);
    z-index: -200;

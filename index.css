@@ -69,7 +69,7 @@ a {
 .menu {
   position:absolute;
   display:flex;
-  justify-content:right;
+  justify-content:left;
   color: rgb(245, 60, 60);
   background-color:rgb(15, 49, 100);
   padding:10px;

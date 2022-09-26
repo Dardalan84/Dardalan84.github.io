@@ -184,6 +184,33 @@ a {
   height:400px;
 }
 
+.creative {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position:absolute;
+  width:100%;
+  height:100%;
+}
+
+table {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+}
+
+td {
+  padding:40px;
+  text-align:center;
+}
+
+@media (max-width: 400px) {
+  table {
+    display: block;
+  }
+}
+
 /* Beginning of Timo */
 
 .mask {

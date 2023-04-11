@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+    <script src="js/animation.js"></script>
+    <script src='js/resultAnimate.js'></script>
+    <script src='js/base64.js'></script>
+    <script src='js/vigcypher.js'></script>
+    <script src='js/a1z26.js'></script>
+    <script src='js/ascii.js'></script>
+    <script src='js/atbash.js'></script>
+    <script src='js/rotcypher.js'></script>
+    <link rel="stylesheet" href="css/toolbox.css">
+<title>CypherCon Decryption Toolbox</title>
+</head>
+<body>
+
+<!--Main Page toolkit grid-->
+      
+<div class="tool">
+  <h6>Welcome to the Decryption Toolkit</h6>  
+  <textarea id="text" cols="20" rows="1"  placeholder="enter message here..."></textarea>
+  <br>
+  <div class='resultMask'> <div id='result'></div></div>
+  Cypher: <select id="select_tool" onchange="changeCipher()">
+    <option value="a1z26">A1Z26</option>
+    <option value="ascii">ASCII</option>
+    <option value="atbash">ATBASH</option>
+    <option value="base64">BASE64</option>
+    <option value="ceasar">CEASAR</option>
+    <option value="viginere">VIGINERE</option>
+</select>
+          <button id='encrypt' onclick="encrypt()">Encrypt</button>
+          <button id='decrypt' onclick="decrypt()">Decrypt</button>
+          
+        </div>   
+    
+    <script src="js/toolkit.js"></script>
+</body>
